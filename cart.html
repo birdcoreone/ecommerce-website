@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Cart | Audiophile</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-flex">
+      <h1 class="logo">audiophile</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="category.html?category=headphones">Headphones</a>
+        <a href="category.html?category=speakers">Speakers</a>
+        <a href="category.html?category=earphones">Earphones</a>
+      </nav>
+      <a href="cart.html" class="cart-icon">
+        <img src="./assets/shared/desktop/icon-cart.svg" alt="Cart" />
+        <span id="cart-count">0</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Cart Section -->
+  <section class="container cart-container">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <div id="cart-summary" class="cart-summary"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Audiophile. All Rights Reserved.</p>
+    <div class="social-icons">
+      <a href="#"><img src="./assets/shared/desktop/icon-facebook.svg" alt="Facebook" /></a>
+      <a href="#"><img src="./assets/shared/desktop/icon-twitter.svg" alt="Twitter" /></a>
+      <a href="#"><img src="./assets/shared/desktop/icon-instagram.svg" alt="Instagram" /></a>
+    </div>
+  </footer>
+
+  <script src="./js/cart.js"></script>
+</body>
+</html>
